@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Busqueda de caminos. segun el mapa con A*</h2>
+        <img id="emoji" src="./static/smileys.png" alt="">
+        <img id="punto" src="./static/target.png" alt="">
+        <input id='filas' type="number" placeholder="Filas">
+        <input id="columnas" type="number" placeholder="Columnas">
+        <div class="bottom">
+            <button onclick="generarGrid()" id="generar">Generar</button>
+            <button onclick="buscar()" id="correr">Buscar</button>
+        </div>
+    </div>
+    <div id="content">
+   
+    </div>
+    <script src="./js/estrella.js"></script>
+    <script src="./js/buscar-vecinos.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/grid.js"></script>
+    <script src="./js/keyboard.js"></script>
+</body>
+
+</html>
